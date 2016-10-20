@@ -223,7 +223,6 @@ function init() {
     ball.vX = 0; // скорость по оси х
     ball.vY = 0; // скорость по оси у
     var canvas = document.getElementById("canvas");
-    window.gameGlobal = game;
     canvas.width = game.width;
     canvas.height = game.height;
     context = canvas.getContext("2d");
